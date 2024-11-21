@@ -21,6 +21,8 @@
   <hr />
 </div>
 
+API Intelligence Platform. 🚀
+
 Treblle is a lightweight SDK that helps Engineering and Product teams build, ship & maintain REST-based APIs faster.
 
 ## Features
