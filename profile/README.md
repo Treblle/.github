@@ -65,9 +65,9 @@ This means data masking is super fast and happens on a programming level before 
 
 ## Get Started
 
-1. Sign in to [Treblle](https://app.treblle.com).
+1. Sign in to [Treblle](https://identity.treblle.com/register).
 2. [Create a Treblle project](https://docs.treblle.com/en/dashboard/projects#creating-a-project).
-3. [Setup the SDK](#install-the-SDK) for your platform.
+3. [Setup the SDK](https://docs.treblle.com/integrations/) for your platform.
 
 ### Install the SDK
 
@@ -179,7 +179,7 @@ Also, follow our [Blog](https://blog.treblle.com), and on [Twitter](https://twit
 
 You can chat with the team and other members on [Discord](https://treblle.com/chat) and follow our tutorials and other video material at [YouTube](https://youtube.com/@treblle).
 
-[![Treblle Discord](https://img.shields.io/badge/Treblle%20Discord-Join%20our%20Discord-F3F5FC?labelColor=7289DA&style=for-the-badge&logo=discord&logoColor=F3F5FC&link=https://treblle.com/chat)](https://treblle.com/chat)
+[![Treblle Discord](https://img.shields.io/badge/Treblle%20Discord-Join%20our%20Discord-F3F5FC?labelColor=7289DA&style=for-the-badge&logo=discord&logoColor=F3F5FC&link=https://treblle.com/chat)](https://discord.gg/BCGkkkYZ)
 
 [![Treblle YouTube](https://img.shields.io/badge/Treblle%20YouTube-Subscribe%20on%20YouTube-F3F5FC?labelColor=c4302b&style=for-the-badge&logo=YouTube&logoColor=F3F5FC&link=https://youtube.com/@treblle)](https://youtube.com/@treblle)
 
@@ -189,8 +189,8 @@ You can chat with the team and other members on [Discord](https://treblle.com/ch
 
 Here are some ways of contributing to making Treblle better:
 
-- **[Try out Treblle](https://docs.treblle.com/en/introduction#getting-started)**, and let us know ways to make Treblle better for you. Let us know here on [Discord](https://treblle.com/chat).
-- Join our [Discord](https://treblle.com/chat) and connect with other members to share and learn from.
+- **[Try out Treblle](https://docs.treblle.com/en/introduction#getting-started)**, and let us know ways to make Treblle better for you. Let us know here on [Discord](https://discord.gg/BCGkkkYZ).
+- Join our [Discord](https://discord.gg/BCGkkkYZ) and connect with other members to share and learn from.
 - Send a pull request to any of our [open source repositories](https://github.com/Treblle) on Github. Check the contribution guide on the repo you want to contribute to for more details about how to contribute. We're looking forward to your contribution!
 
 ### Contributors
