@@ -45,9 +45,9 @@ Treblle is a lightweight SDK that helps Engineering and Product teams build, shi
 ## How Treblle Works
 Once you've integrated a Treblle SDK in your codebase, this SDK will send requests and response data to your Treblle Dashboard.
 
-In your Treblle Dashboard you get to see real-time requests to your API, auto-generated API docs, API analytics like how fast the response was for an endpoint, the load size of the response, etc.
+In your Treblle Dashboard, you can see real-time requests to your API, auto-generated API docs, and API analytics, such as how fast the response was for an endpoint and the load size of the response.
 
-Treblle also uses the requests sent to your Dashboard to calculate your API score which is a quality score that's calculated based on the performance, quality, and security best practices for your API.
+Treblle also uses the requests sent to your Dashboard to calculate your API score, which is a quality score based on the performance, quality, and security best practices for your API.
 
 > Visit [https://docs.treblle.com](http://docs.treblle.com) for the complete documentation.
 
@@ -56,9 +56,9 @@ Treblle also uses the requests sent to your Dashboard to calculate your API scor
 ### Masking fields
 Masking fields ensure certain sensitive data are removed before being sent to Treblle.
 
-To make sure masking is done before any data leaves your server [we built it into all our SDKs](https://docs.treblle.com/en/security/masked-fields#fields-masked-by-default).
+To ensure masking is done before any data leaves your server [we built it into all our SDKs](https://docs.treblle.com/en/security/masked-fields#fields-masked-by-default).
 
-This means data masking is super fast and happens on a programming level before the API request is sent to Treblle. You can [customize](https://docs.treblle.com/en/security/masked-fields#custom-masked-fields) exactly which fields are masked when you're integrating the SDK.
+This means data masking is fast and happens on a programming level before the API request is sent to Treblle. You can [customize](https://docs.treblle.com/en/security/masked-fields#custom-masked-fields) exactly which fields are masked when integrating the SDK.
 
 > Visit the [Masked fields](https://docs.treblle.com/en/security/masked-fields) section of the [docs](https://docs.sailscasts.com) for the complete documentation.
 
@@ -84,11 +84,11 @@ terminal:
 php artisan treblle:start
 ```
 
-The command guides you through a process and allows you to create an account, login to your existing account, create a
+The command guides you through a process and allows you to create an account, log in to your existing account, create a
 new project and get all the `.ENV` keys you need to start using Treblle.
 
 You can also visit our website [https://app.treblle.com](https://app.treblle.com) and create a FREE account to get your API key and Project ID. Once
-you have them, simply add them to your `.ENV` file:
+you have them, add them to your `.ENV` file:
 
 ```shell
 TREBLLE_API_KEY=YOUR_API_KEY
@@ -96,7 +96,7 @@ TREBLLE_PROJECT_ID=YOUR_PROJECT_ID
 ```
 ## Enabling Treblle on your API
 
-Your first step should be to register Treblle into your in your middleware aliases in `app/Http/Kernel.php`:
+Your first step should be to register Treblle into your middleware aliases in `app/Http/Kernel.php`:
 
 ```php
 protected $middlewareAliases = [
@@ -134,8 +134,8 @@ Route::group(function () {
 });
 ```
 
-You're all set. Next time someone makes a request to your API you will see it in real-time on your Treblle dashboard
-alongside other features like: auto-generated documentation, error tracking, analytics and API quality scoring.
+You're all set. Next time someone requests your API, you will see it in real-time on your Treblle dashboard
+alongside other features like auto-generated documentation, error tracking, analytics, and API quality scoring.
 
 > See the [docs](https://docs.treblle.com/en/integrations/laravel) for this SDK to learn more.
 
@@ -162,8 +162,8 @@ Treblle provides [open-source SDKs](https://docs.treblle.com/en/integrations) th
 
 ## Other Packages
 
-Besides the SDKs, we also provide helpers and configuration used for SDK
-development. If you're thinking about contributing to or creating a SDK, have a look at the resources
+Besides the SDKs, we provide helpers and configurations for SDK
+development. If you're thinking about contributing to or creating an SDK, have a look at the resources
 below:
 
 - [`treblle-utils`](https://github.com/Treblle/treblle-utils):  A set of helpers and
@@ -189,9 +189,9 @@ You can chat with the team and other members on [Discord](https://treblle.com/ch
 
 Here are some ways of contributing to making Treblle better:
 
-- **[Try out Treblle](https://docs.treblle.com/en/introduction#getting-started)**, and let us know ways to make Treblle better for you. Let us know here on [Discord](https://discord.gg/BCGkkkYZ).
+- **[Try out Treblle](https://docs.treblle.com/en/introduction#getting-started)**, and let us know how to improve Treblle. Let us know here on [Discord](https://discord.gg/BCGkkkYZ).
 - Join our [Discord](https://discord.gg/BCGkkkYZ) and connect with other members to share and learn from.
-- Send a pull request to any of our [open source repositories](https://github.com/Treblle) on Github. Check the contribution guide on the repo you want to contribute to for more details about how to contribute. We're looking forward to your contribution!
+- Send a pull request to any of our [open source repositories](https://github.com/Treblle) on GitHub. Check the contribution guide on the repo you want to contribute to for more details about how to contribute. We're looking forward to your contribution!
 
 ### Contributors
 <a href="https://github.com/Treblle/treblle-laravel/graphs/contributors">
